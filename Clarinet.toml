@@ -1,0 +1,7 @@
+[project]
+name = "bitcoin"
+description = "SIP-010 fungible token: Wrapped Bitcoin (wBTC) on Stacks (for development/testing)."
+authors = ["Nkechi Okoye"]
+
+[contracts.wrapped-bitcoin]
+path = "contracts/wrapped-bitcoin.clar"
