@@ -1,13 +1,14 @@
 [project]
 name = "vicbit"
-description = ""
-authors = []
+description = "VicBit fungible token smart contract (SIP-010 compatible)"
+authors = ["anthony"]
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.vicbit]
+path = "contracts/vicbit.clar"
+epoch = "latest"
+clarity_version = 2
 
 [repl.analysis]
 passes = ["check_checker"]
